@@ -1,0 +1,126 @@
+.logoImage {
+  background-color: white;
+  width: 200px;
+  height:200px;
+  border-radius: 100px;
+  margin: 20px 0 0 0;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+.logoImage, img{
+  overflow: hidden;
+}
+span{
+  text-align: left;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+.logBtnContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.mainComponent {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+.postContainer{
+  padding: 2px;
+}
+.post{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  padding: 2px;
+  margin: 0 10px 20px 10px;;
+  border-radius: 10px;
+  background-color:white;
+  color:black;
+  font-size: calc(5px + 2vmin);
+}
+.postHeader{
+  border-bottom:1px solid rgb(179, 179, 179);
+  display: flex;
+  flex-direction: row;
+  font-size: calc(8px + 2vmin);
+}
+
+.leftHeader{
+  width:90%;
+}
+.rightHeader{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 10%;
+}
+.likeBtnContent{
+  display: flex;
+  flex-direction: row;
+}
+.formContainer{
+  /* min-height:100px; */
+  display:flex;
+  flex-direction: column;
+  max-width:90%;
+  background-color: white;
+  padding:10px;
+  border-radius: 5px;
+}
+.toggleButtonContainer{
+  margin: 20px 0;
+}
+.textContainer{
+  /* min-width:300px; */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 130px;
+}
+.textArea{
+  flex: 1;
+  resize: none;
+  margin-bottom:10px;
+  padding:3px;
+  border-radius: 5px;
+}
+.inputContainer{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.inputContainer input:last-child{
+  margin:0 0 4px 2px;
+  width: 50%;
+} input:first-child{
+  margin:0 2px 4px 0;
+  width: 50%;
+}
+.inputContainer input{
+  padding:3px;
+  border-radius: 5px;
+  /* border-style: solid; */
+  border: 1px solid rgb(169, 169, 169);
+}
+.hiddenIcon{
+  opacity: 0.3;
+}
+.opaqueIcon{
+  opacity: 1;
+}
+.Icon{
+  
+}
